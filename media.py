@@ -1,6 +1,7 @@
 # Importing dependencies
 import webbrowser
 
+
 # This movie class contains information regarding the movie.
 class Movie():
 
@@ -13,7 +14,7 @@ class Movie():
         self.trailer_youtube_url = trailer_youtube
         self.main_actor = main_actor
         self.release_date = release_date
-        
+
     # This instance method allows you to show the trailer when called.
-    def show_trailer (self):
+    def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
