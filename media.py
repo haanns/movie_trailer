@@ -5,7 +5,8 @@ import webbrowser
 class Movie():
 
     # This assign the movie properties to self.
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube, main_actor, release_date):
+    def __init__(self, movie_title, movie_storyline, poster_image,
+                 trailer_youtube, main_actor, release_date):
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
