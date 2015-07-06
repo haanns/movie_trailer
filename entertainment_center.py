@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# importing dependencies
+# Importing dependencies
 import media
 import fresh_tomatoes
 
