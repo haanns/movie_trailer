@@ -71,8 +71,7 @@ silent_hill = media.Movie(
 
 
 # List of movie that will be sent to fresh_tomatoes.py
-movies = [white_chicks,scary_movie, ted, leon, magic_mike, silent_hill]
+movies = [white_chicks, scary_movie, ted, leon, magic_mike, silent_hill]
 
-# Send the movies list to fresh_tomatoes.py and call the open_movies_page method
+# Send movies list to fresh_tomatoes.py and call the open_movies_page method
 fresh_tomatoes.open_movies_page(movies)
-
