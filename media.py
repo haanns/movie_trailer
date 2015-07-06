@@ -4,6 +4,12 @@ import webbrowser
 
 # This movie class contains information regarding the movie.
 class Movie():
+    """
+    This is the movie class that takes in parameters including
+    movie storyline, poster image, youtube trailer, main actor,
+    and release date. Also has a function that opens web browser
+    link.
+    """
 
     # This assign the movie properties to self.
     def __init__(self, movie_title, movie_storyline, poster_image,
