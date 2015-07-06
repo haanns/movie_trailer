@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-#importing dependencies
+# importing dependencies
 import media
 import fresh_tomatoes
 
-#movie instances
+# Movie instances
 white_chicks = media.Movie("White Chicks",
                         "Two disgraced FBI agents go way undercover in an effort to protect hotel heiresses the Wilson Sisters from a kidnapping plot.",
                         "https://upload.wikimedia.org/wikipedia/en/2/2b/White_chicks.jpg",
@@ -52,9 +52,9 @@ silent_hill = media.Movie("Silent Hill",
                         )
 
 
-#list of movie that will be sent to fresh_tomatoes.py
+# List of movie that will be sent to fresh_tomatoes.py
 movies = [white_chicks,scary_movie, ted, leon, magic_mike, silent_hill]
 
-#send the movies list to fresh_tomatoes.py and call the open_movies_page method
+# Send the movies list to fresh_tomatoes.py and call the open_movies_page method
 fresh_tomatoes.open_movies_page(movies)
 
