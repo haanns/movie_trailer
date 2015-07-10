@@ -58,7 +58,6 @@ magic_mike = media.Movie(
     "Channing Tatum",
     "July 1, 2015")
 
-
 silent_hill = media.Movie(
     "Silent Hill",
     "A woman goes in search for her daughter, within the \
@@ -68,6 +67,15 @@ silent_hill = media.Movie(
     "https://www.youtube.com/watch?v=f5mT5LhbRJw",
     "Radha Mitchell",
     "April 21, 2006")
+    
+pokemon = media.Movie(
+    "Pokémon: The First Movie - Mewtwo Strikes Back",
+    "Scientists genetically create a new Pokémon, Mewtwo, \
+    but the results are horrific and disastrous.",
+    "http://ia.media-imdb.com/images/M/MV5BMTkyNDQxOTg5MF5BMl5BanBnXkFtZTYwODA2MDE3._V1_SY317_CR2,0,214,317_AL_.jpg",
+    "https://www.youtube.com/watch?v=f5mT5LhbRJw",
+    "Veronica Taylor",
+    "November 10, 1999")
 
 
 # List of movie that will be sent to fresh_tomatoes.py
